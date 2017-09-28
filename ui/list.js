@@ -1,7 +1,7 @@
 var list = document.querySelector('.list');
 
 WeDeploy
-	.data('db-boilerplatedata.wedeploy.io')
+	.data('db-dataxyz.wedeploy.sh')
 	.orderBy('id', 'desc')
 	.limit(5)
 	.get('tasks')
@@ -13,7 +13,7 @@ WeDeploy
 	});
 
 WeDeploy
-	.data('db-boilerplatedata.wedeploy.io')
+	.data('db-dataxyz.wedeploy.sh')
 	.limit(5)
 	.orderBy('id', 'desc')
 	.watch('tasks')
